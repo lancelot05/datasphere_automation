@@ -1,13 +1,12 @@
 # Importing packages
 import time
 import os
-from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-load_dotenv()
+
 
 def process(url,email,password,space,jsondir):
     driver = webdriver.Chrome()
